@@ -1,0 +1,90 @@
+[
+    {
+        "Package":  "tv.alphonso.alphonso_eula",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.miui.tv.analytics",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.tvhome.michannel",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.dream",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "android.autoinstalls.config.xiaomi.mibox3",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "android.autoinstalls.config.xioami.mibox3",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.feedback",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tv.bugreportsender",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.android.printspooler",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.syncadapters.calendar",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.calendar",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.syncadapters.contacts",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.contacts",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.xiaomo.tv.milegal",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.xm.webcontent",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.videoplayer",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.milinkservice",
+        "InitialState":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.tvhome.atv",
+        "InitialState":  "disabled"
+    },
+    {
+        "Package":  "com.google.android.tv",
+        "InitialState":  "disabled"
+    },
+    {
+        "Package":  "com.google.android.youtube.tvmusic",
+        "InitialState":  "disabled"
+    },
+    {
+        "Package":  "com.google.android.videos",
+        "InitialState":  "disabled"
+    },
+    {
+        "Package":  "com.google.android.play.games",
+        "InitialState":  "disabled"
+    }
+]

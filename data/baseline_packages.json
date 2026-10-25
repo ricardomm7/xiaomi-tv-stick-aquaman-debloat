@@ -1,0 +1,578 @@
+[
+    {
+        "Package":  "android",
+        "Path":  "/system/framework/framework-res.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "android.autoinstalls.config.xiaomi.mibox3",
+        "Path":  "/data/app/android.autoinstalls.config.xiaomi.mibox3-erlD80QiP4EpQCaSevN35Q==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "android.autoinstalls.config.xioami.mibox3",
+        "Path":  "/system/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.amazon.amazonvideo.livingroom",
+        "Path":  "/data/app/com.amazon.amazonvideo.livingroom-bwbsMwLJUrU6MyrhjsQe-Q==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.backupconfirm",
+        "Path":  "/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.bluetooth",
+        "Path":  "/system/app/Bluetooth/Bluetooth.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.captiveportallogin",
+        "Path":  "/system/app/CaptivePortalLogin/CaptivePortalLogin.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.certinstaller",
+        "Path":  "/system/app/CertInstaller/CertInstaller.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.companiondevicemanager",
+        "Path":  "/system/app/CompanionDeviceManager/CompanionDeviceManager.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.cts.ctsshim",
+        "Path":  "/system/app/CtsShimPrebuilt/CtsShimPrebuilt.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.cts.priv.ctsshim",
+        "Path":  "/system/priv-app/CtsShimPrivPrebuilt/CtsShimPrivPrebuilt.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.defcontainer",
+        "Path":  "/system/priv-app/DefaultContainerService/DefaultContainerService.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.dreams.basic",
+        "Path":  "/system/app/BasicDreams/BasicDreams.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.externalstorage",
+        "Path":  "/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.htmlviewer",
+        "Path":  "/system/app/HTMLViewer/HTMLViewer.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.inputdevices",
+        "Path":  "/system/priv-app/InputDevices/InputDevices.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.keychain",
+        "Path":  "/system/app/KeyChain/KeyChain.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.location.fused",
+        "Path":  "/system/priv-app/FusedLocation/FusedLocation.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.onetimeinitializer",
+        "Path":  "/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.pacprocessor",
+        "Path":  "/system/app/PacProcessor/PacProcessor.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.printspooler",
+        "Path":  "/system/app/PrintSpooler/PrintSpooler.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.calendar",
+        "Path":  "/system/priv-app/CalendarProvider/CalendarProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.contacts",
+        "Path":  "/system/priv-app/ContactsProvider/ContactsProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.downloads",
+        "Path":  "/system/priv-app/DownloadProvider/DownloadProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.media",
+        "Path":  "/system/priv-app/MediaProvider/MediaProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.settings",
+        "Path":  "/system/priv-app/SettingsProvider/SettingsProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.tv",
+        "Path":  "/system/priv-app/TvProvider/TvProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.providers.userdictionary",
+        "Path":  "/system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.proxyhandler",
+        "Path":  "/system/priv-app/ProxyHandler/ProxyHandler.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.se",
+        "Path":  "/system/app/SecureElement/SecureElement.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.settings.intelligence",
+        "Path":  "/system/priv-app/SettingsIntelligence/SettingsIntelligence.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.sharedstoragebackup",
+        "Path":  "/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.shell",
+        "Path":  "/system/priv-app/Shell/Shell.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.statementservice",
+        "Path":  "/system/priv-app/StatementService/StatementService.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.systemui",
+        "Path":  "/system/priv-app/SystemUI/SystemUI.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.tv.settings",
+        "Path":  "/system/priv-app/TvSettings/TvSettings.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.vending",
+        "Path":  "/data/app/com.android.vending-ZeAjNe2bWH8H3611SsmKCA==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.vpndialogs",
+        "Path":  "/system/priv-app/VpnDialogs/VpnDialogs.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.android.wallpaperbackup",
+        "Path":  "/system/app/WallpaperBackup/WallpaperBackup.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.apple.atve.androidtv.appletv",
+        "Path":  "/data/app/com.apple.atve.androidtv.appletv-RzsNV_xjwxKjjflSifWM1A==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.droidlogic",
+        "Path":  "/vendor/priv-app/droidlogic-res/droidlogic-res.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.droidlogic.ble",
+        "Path":  "/vendor/overlay/BlueOverlay/BlueOverlay.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.droidlogic.overlay",
+        "Path":  "/vendor/overlay/DroidOverlay.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.droidlogic.SubTitleService",
+        "Path":  "/vendor/app/SubTitle/SubTitle.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.apps.mediashell",
+        "Path":  "/data/app/com.google.android.apps.mediashell-gHZe0isLBwtAZIDElJz43w==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.apps.tv.launcherx",
+        "Path":  "/data/app/com.google.android.apps.tv.launcherx-3EYefYJgcPjy4lUE4jA19A==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.backdrop",
+        "Path":  "/data/app/com.google.android.backdrop-bV8mB2abQJxWJWjRRXtnRQ==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.backuptransport",
+        "Path":  "/system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.ext.services",
+        "Path":  "/system/priv-app/GoogleExtServices/GoogleExtServices.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.ext.shared",
+        "Path":  "/system/app/GoogleExtShared/GoogleExtShared.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.feedback",
+        "Path":  "/system/priv-app/GoogleFeedback/GoogleFeedback.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.gms",
+        "Path":  "/data/app/com.google.android.gms-CbqEppxnHMHPCC7fMR0-Sw==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.gsf",
+        "Path":  "/system/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.inputmethod.latin",
+        "Path":  "/data/app/com.google.android.inputmethod.latin-rZlGMvQgSoSYBJCGYEsNOw==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.katniss",
+        "Path":  "/data/app/com.google.android.katniss-Q-URnvSjIBuxlOeZQrsbRQ==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.marvin.talkback",
+        "Path":  "/data/app/com.google.android.marvin.talkback-aRF4G-sJnHWvQYraddTutg==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.onetimeinitializer",
+        "Path":  "/system/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.packageinstaller",
+        "Path":  "/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.partnersetup",
+        "Path":  "/system/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.play.games",
+        "Path":  "/data/app/com.google.android.play.games-zDugeaUd8vmoyDV4xauKmA==/base.apk",
+        "IsSystem":  false,
+        "State":  "disabled"
+    },
+    {
+        "Package":  "com.google.android.speech.pumpkin",
+        "Path":  "/system/app/Pumpkin/Pumpkin.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.sss.authbridge",
+        "Path":  "/system/priv-app/SssAuthbridgePrebuilt/SssAuthbridgePrebuilt.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.syncadapters.calendar",
+        "Path":  "/system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.syncadapters.contacts",
+        "Path":  "/system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tts",
+        "Path":  "/data/app/com.google.android.tts-pn6PryCuP6HaZNWzVmxjTg==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tungsten.setupwraith",
+        "Path":  "/data/app/com.google.android.tungsten.setupwraith-Nsi6g79p55jHhgS1Y19RPA==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tv",
+        "Path":  "/data/app/com.google.android.tv-kNK9KHLDDOJr16V5_66Ipw==/base.apk",
+        "IsSystem":  false,
+        "State":  "disabled"
+    },
+    {
+        "Package":  "com.google.android.tv.bugreportsender",
+        "Path":  "/system/app/BugReportSender/BugReportSender.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tv.frameworkpackagestubs",
+        "Path":  "/system/app/FrameworkPackageStubs/FrameworkPackageStubs.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tv.remote.service",
+        "Path":  "/data/app/com.google.android.tv.remote.service-FJswpshUu2me2wwaJGUkyw==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tvlauncher",
+        "Path":  "/data/app/com.google.android.tvlauncher-bICDZ3cqVGxXr7AXMWNjpw==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.tvrecommendations",
+        "Path":  "/data/app/com.google.android.tvrecommendations-A0zNciaiqzv49fHDV2llGw==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.videos",
+        "Path":  "/system/app/VideosPano/VideosPano.apk",
+        "IsSystem":  true,
+        "State":  "disabled"
+    },
+    {
+        "Package":  "com.google.android.webview",
+        "Path":  "/data/app/com.google.android.webview-jvKGCAPykodxCRW-O76Ycw==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.youtube.tv",
+        "Path":  "/data/app/com.google.android.youtube.tv-gQ46F388nGlUVSZ1TbLL7w==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.google.android.youtube.tvmusic",
+        "Path":  "/data/app/com.google.android.youtube.tvmusic-CtHGoQurfuWtjofxx-NWUg==/base.apk",
+        "IsSystem":  false,
+        "State":  "disabled"
+    },
+    {
+        "Package":  "com.mitv.download.service",
+        "Path":  "/system/app/DownloadService/DownloadService.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.dream",
+        "Path":  "/system/priv-app/MiTVDream/MiTVDream.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.milinkservice",
+        "Path":  "/system/priv-app/MiLink/MiLink.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.tvhome.atv",
+        "Path":  "/system/priv-app/TvHome/TvHome.apk",
+        "IsSystem":  true,
+        "State":  "disabled"
+    },
+    {
+        "Package":  "com.mitv.tvhome.michannel",
+        "Path":  "/system/priv-app/MiChannel/MiChannel.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.mitv.videoplayer",
+        "Path":  "/system/priv-app/videoplayer/videoplayer.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.miui.tv.analytics",
+        "Path":  "/system/app/MiTVBiAnalytics/MiTVBiAnalytics.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.netflix.ninja",
+        "Path":  "/data/app/com.netflix.ninja-LdncGFVuKR7xh1SHsIxl3g==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.stremio.one",
+        "Path":  "/data/app/com.stremio.one-BUawLYnscZfRlp-3L1mk1w==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.vodafone.vtv.atv.pt",
+        "Path":  "/data/app/com.vodafone.vtv.atv.pt-yMjymYa_BHyAMg7pJ2rIYQ==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.xiaomi.android.tvsetup.partnercustomizer",
+        "Path":  "/system/priv-app/MiTvSetupCustomizer/MiTvSetupCustomizer.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.xiaomi.mitv.res",
+        "Path":  "/system/app/mitv-framework-res/mitv-framework-res.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.xiaomi.mitv.updateservice",
+        "Path":  "/system/priv-app/updateservice/updateservice.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.xiaomo.tv.milegal",
+        "Path":  "/system/app/milegal/milegal.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "com.xm.webcontent",
+        "Path":  "/vendor/app/mitvwebview/mitvwebview.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "mitv.service",
+        "Path":  "/system/app/TvService/TvService.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "org.acestream.node",
+        "Path":  "/data/app/org.acestream.node-u76KCdV3HavGoxbcjB1jOA==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "pt.iol.tviplayer.androidtv",
+        "Path":  "/data/app/pt.iol.tviplayer.androidtv-r_zSt4AK3if8483VsTnSqw==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "pt.rtp.play",
+        "Path":  "/data/app/pt.rtp.play-JsWhl8IFAw_bVJ1nPTtGoA==/base.apk",
+        "IsSystem":  false,
+        "State":  "enabled"
+    },
+    {
+        "Package":  "tv.alphonso.alphonso_eula",
+        "Path":  "/system/priv-app/AlphonsoEULA/AlphonsoEULA.apk",
+        "IsSystem":  true,
+        "State":  "enabled"
+    }
+]

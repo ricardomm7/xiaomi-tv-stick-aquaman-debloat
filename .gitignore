@@ -1,0 +1,11 @@
+# Android SDK Platform Tools binaries
+platform-tools/
+*.exe
+*.dll
+*.apk
+
+# Temporary and scratch files
+scratch/
+*.log
+.system_generated/
+*.tmp
