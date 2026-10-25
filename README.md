@@ -75,7 +75,27 @@ debloat-xiaomi-tv-stick/
 
 ## Part 1: Conservative Debloat (Independent)
 
-Disables 17 confirmed safe packages (Alphonso ACR telemetry, Xiaomi BI analytics, PatchWall ad injectors, and redundant calendar/contacts synchronization) using `pm disable-user --user 0`.
+Disables 18 confirmed safe packages (Alphonso ACR telemetry, Xiaomi BI analytics, PatchWall ad injectors, obsolete Xiaomi DownloadService, and redundant calendar/contacts synchronization) using `pm disable-user --user 0`:
+
+### Packages Disabled:
+1. `tv.alphonso.alphonso_eula` — Alphonso ACR background content recognition service (~31 MB RAM).
+2. `com.miui.tv.analytics` — Xiaomi BI telemetry and usage logging collector (~37 MB RAM).
+3. `com.mitv.tvhome.michannel` — PatchWall sponsored promotional channels injector (MetaX Ad SDK).
+4. `com.mitv.dream` — Heavy proprietary Xiaomi screensaver with memory profiler and Firebase.
+5. `com.mitv.download.service` — Obsolete Xiaomi background download daemon (fixes recurrent "Download service isn't responding" ANR popups).
+6. `android.autoinstalls.config.xiaomi.mibox3` — Play Auto-Install partner app suggestion config.
+7. `android.autoinstalls.config.xioami.mibox3` — Base system Play Auto-Install config.
+8. `com.google.android.feedback` — Google manual crash report submission forms.
+9. `com.google.android.tv.bugreportsender` — Android TV bug report sender tool.
+10. `com.android.printspooler` — Android printing framework daemon (useless on a TV stick).
+11. `com.google.android.syncadapters.calendar` — Google Calendar sync service.
+12. `com.android.providers.calendar` — Local calendar database provider.
+13. `com.google.android.syncadapters.contacts` — Google Contacts sync service.
+14. `com.android.providers.contacts` — Local contacts database provider.
+15. `com.xiaomo.tv.milegal` — Xiaomi legal & privacy terms viewer.
+16. `com.xm.webcontent` — Xiaomi vendor promotional webview wrapper.
+17. `com.mitv.videoplayer` — Xiaomi local video player (all streaming apps use internal players).
+18. `com.mitv.milinkservice` — Xiaomi proprietary screen-mirroring for Xiaomi phones (~33 MB RAM). Google Cast is separate and remains active.
 
 ### To Run Debloat:
 - **Windows:** Double-click `debloat.bat` or run:

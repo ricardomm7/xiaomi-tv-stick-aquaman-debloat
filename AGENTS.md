@@ -43,11 +43,12 @@ The repository is modularly split into two independent operations:
 
 ## 3. Package Classification Matrix
 
-### Tier A: Confirmed Safe for Deactivation (15 Packages)
+### Tier A: Confirmed Safe for Deactivation (16 Packages)
 - `tv.alphonso.alphonso_eula` (Alphonso ACR audio beacon listener)
 - `com.miui.tv.analytics` (Xiaomi BI telemetry daemon)
 - `com.mitv.tvhome.michannel` (PatchWall sponsored ad injector)
 - `com.mitv.dream` (Redundant screensaver with memory profiler)
+- `com.mitv.download.service` (Obsolete Xiaomi download daemon; causes recurrent ANRs if PatchWall is disabled)
 - `android.autoinstalls.config.xiaomi.mibox3` (Play Auto-Install config)
 - `android.autoinstalls.config.xioami.mibox3` (Play Auto-Install base config)
 - `com.google.android.feedback` (Google manual crash feedback)

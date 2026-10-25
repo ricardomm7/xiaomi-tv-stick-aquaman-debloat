@@ -83,6 +83,7 @@ $packagesToDisable = @(
     "com.miui.tv.analytics",
     "com.mitv.tvhome.michannel",
     "com.mitv.dream",
+    "com.mitv.download.service",
     "android.autoinstalls.config.xiaomi.mibox3",
     "android.autoinstalls.config.xioami.mibox3",
     "com.xiaomo.tv.milegal",
