@@ -35,9 +35,9 @@ $ADB_CMD connect "${DEVICE_IP}:5555"
 
 # Check if installed
 if ! $ADB_CMD shell pm list packages | grep -q "com.petrobot.hume"; then
-    APK_URL="https://github.com/petrobot-admin/hume-launcher/releases/download/v7.6/HumeLauncher-7.6.apk"
-    TEMP_APK="/tmp/HumeLauncher-7.6.apk"
-    echo "Downloading Hume Launcher v7.6 from official GitHub release..."
+    APK_URL="https://github.com/petrobot-admin/hume-launcher/releases/download/v7.8/HumeLauncher-7.8.apk"
+    TEMP_APK="/tmp/HumeLauncher-7.8.apk"
+    echo "Downloading Hume Launcher v7.8 from official GitHub release..."
     curl -L "$APK_URL" -o "$TEMP_APK"
     
     echo "Installing Hume Launcher..."

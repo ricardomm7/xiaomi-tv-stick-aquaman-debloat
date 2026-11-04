@@ -47,9 +47,9 @@ Write-Host "Connecting to ${DeviceIP}:5555 via ADB..."
 $installed = (& $adb shell pm list packages | Select-String "com.petrobot.hume")
 
 if (-not $installed) {
-    $apkUrl = "https://github.com/petrobot-admin/hume-launcher/releases/download/v7.6/HumeLauncher-7.6.apk"
-    $tempApk = Join-Path $env:TEMP "HumeLauncher-7.6.apk"
-    Write-Host "Downloading Hume Launcher v7.6 from official GitHub release..." -ForegroundColor Yellow
+    $apkUrl = "https://github.com/petrobot-admin/hume-launcher/releases/download/v7.8/HumeLauncher-7.8.apk"
+    $tempApk = Join-Path $env:TEMP "HumeLauncher-7.8.apk"
+    Write-Host "Downloading Hume Launcher v7.8 from official GitHub release..." -ForegroundColor Yellow
     Invoke-WebRequest -Uri $apkUrl -OutFile $tempApk
     
     Write-Host "Installing Hume Launcher on TV Stick..." -ForegroundColor Yellow
