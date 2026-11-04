@@ -56,6 +56,11 @@ echo "Disabling stock Google TV launcher (pm disable-user --user 0)..."
 $ADB_CMD shell pm disable-user --user 0 com.google.android.tvlauncher
 
 echo ""
+echo "Enabling Hume Launcher PowerService in Accessibility settings..."
+$ADB_CMD shell settings put secure enabled_accessibility_services com.petrobot.hume/com.petrobot.hume.PowerService
+$ADB_CMD shell settings put secure accessibility_enabled 1
+
+echo ""
 echo "Refreshing Home screen..."
 $ADB_CMD shell input keyevent KEYCODE_HOME
 

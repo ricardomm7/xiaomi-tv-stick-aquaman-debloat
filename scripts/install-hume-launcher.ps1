@@ -69,7 +69,12 @@ Write-Host "`nDisabling stock Google TV launcher (pm disable-user --user 0)..." 
 $disableStock = (& $adb shell pm disable-user --user 0 com.google.android.tvlauncher).Trim()
 Write-Host "Result: $disableStock" -ForegroundColor Green
 
-# 3. Refresh home screen
+# 3. Enable Hume Launcher PowerService in Accessibility (Home button handling & sleep)
+Write-Host "`nEnabling Hume Launcher PowerService in Accessibility settings..." -ForegroundColor Cyan
+& $adb shell settings put secure enabled_accessibility_services com.petrobot.hume/com.petrobot.hume.PowerService
+& $adb shell settings put secure accessibility_enabled 1
+
+# 4. Refresh home screen
 & $adb shell input keyevent KEYCODE_HOME
 
 Write-Host "`n==========================================================" -ForegroundColor Cyan
